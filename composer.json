@@ -1,0 +1,20 @@
+{
+    "name": "qshurick/auth",
+    "description": "Auth services",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*",
+        "qshurick/logger": "0.1.x",
+        "doctrine/doctrine-orm-module": "0.7.*",
+        "qshurick/register": "dev-master",
+        "qshurick/event": "dev-master",
+        "qshurick/acl": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Auth\\": "src/" }
+    }
+}
